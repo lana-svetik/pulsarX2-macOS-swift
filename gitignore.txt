@@ -1,0 +1,89 @@
+# Xcode
+#
+# gitignore für das Swift-Projekt PulsarX2macOS
+# Angepasst von https://github.com/github/gitignore/blob/main/Swift.gitignore
+#
+
+## Benutzerdefinierte Einstellungen
+xcuserdata/
+
+## Kompatibilität mit Xcode 8 und früheren Versionen
+*.xcscmblueprint
+*.xccheckout
+
+## Kompatibilität mit Xcode 3 und früheren Versionen
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## macOS spezifische Dateien
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+## Thumbnails
+._*
+
+## Dateien, die durch temporäre IDE-Prozesse erzeugt werden könnten
+*.swp
+*.lock
+*~.nib
+*.swiftpm
+.build/
+
+## App-Paketierungsverzeichnis
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Swift Package Manager
+.build/
+
+## CocoaPods
+Pods/
+Podfile.lock
+
+## Konfigurationsdateien, die Benutzerinformationen enthalten
+*.xcconfig
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+## Swift Package Manager
+.swiftpm
+
+## Projekte, die vom Skript erstellt wurden
+/*.xcodeproj
+
+## AppCode-spezifische Dateien
+.idea/
+
+## Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+## Logs
+*.log
+
+## Lokale Konfigurationen
+/Configs/local.xcconfig
