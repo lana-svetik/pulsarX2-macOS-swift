@@ -19,7 +19,7 @@ struct Settings {
     static let modelName = "X2"
     static let sensorModel = "XS-1 (PixArt)"
     static let maxDPI = 32000
-    static let maxPollingRate = 8000
+    static let maxPollingRate = 8000  // Mit speziellem Dongle
 
     // Konfigurationswerte
     static let defaultDPIStages = [800, 1600, 3200, 6400, 12800, 25600]
