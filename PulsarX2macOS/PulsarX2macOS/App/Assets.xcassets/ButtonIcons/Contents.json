@@ -1,0 +1,28 @@
+{
+  "images" : [
+    {
+      "filename" : "left_click.png",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "right_click.png",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "middle_click.png", 
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "back_button.png",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "forward_button.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
