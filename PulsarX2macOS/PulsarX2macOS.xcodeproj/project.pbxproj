@@ -1,0 +1,106 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 56;
+    objects = {
+
+        /* Begin PBXBuildFile section */
+        1A2B3C4D5E6F7A8B9C /* PulsarX2macOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F7A8B9C /* PulsarX2macOSApp.swift */; };
+        1A2B3C4D5E6F7A8B9D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F7A8B9D /* MainView.swift */; };
+        
+        /* Quellcode-Dateien */
+        1A2B3C4D5E6F7A8B9E /* USBDeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F7A8B9E /* USBDeviceManager.swift */; };
+        
+        /* Ressourcen */
+        1A2B3C4D5E6F7A8B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F7A8B9F /* Assets.xcassets */; };
+        
+        /* Test-Dateien */
+        1A2B3C4D5E6F7A8B9G /* PulsarX2macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F7A8B9G /* PulsarX2macOSTests.swift */; };
+    };
+    
+    rootObject = 1A2B3C4D5E6F7A8B9H /* Project object */;
+    
+    attributes = {
+        LastSwiftMigration = 1500;
+        LastUpgradeCheck = 1500;
+        TargetAttributes = {
+            1A2B3C4D5E6F7A8B9H = {
+                CreatedOnToolsVersion = 15.0;
+                LastSwiftMigration = 1500;
+            };
+        };
+    };
+    
+    targets = (
+        /* Hauptanwendung */
+        {
+            isa = PBXNativeTarget;
+            name = PulsarX2macOS;
+            productName = PulsarX2macOS;
+            productType = "com.apple.product-type.application";
+            buildConfigurations = (
+                /* Debug-Konfiguration */
+                {
+                    isa = XCBuildConfiguration;
+                    name = Debug;
+                    buildSettings = {
+                        ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                        CODE_SIGN_STYLE = Automatic;
+                        DEVELOPMENT_TEAM = "";
+                        INFOPLIST_FILE = "PulsarX2macOS/App/Info.plist";
+                        PRODUCT_BUNDLE_IDENTIFIER = "com.lana-svetik.PulsarX2macOS";
+                        PRODUCT_NAME = "$(TARGET_NAME)";
+                        SWIFT_VERSION = 5.0;
+                    };
+                },
+                /* Release-Konfiguration */
+                {
+                    isa = XCBuildConfiguration;
+                    name = Release;
+                    buildSettings = {
+                        ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                        CODE_SIGN_STYLE = Automatic;
+                        DEVELOPMENT_TEAM = "";
+                        INFOPLIST_FILE = "PulsarX2macOS/App/Info.plist";
+                        PRODUCT_BUNDLE_IDENTIFIER = "com.lana-svetik.PulsarX2macOS";
+                        PRODUCT_NAME = "$(TARGET_NAME)";
+                        SWIFT_VERSION = 5.0;
+                    };
+                }
+            );
+        },
+        /* Test-Target */
+        {
+            isa = PBXNativeTarget;
+            name = PulsarX2macOSTests;
+            productName = PulsarX2macOSTests;
+            productType = "com.apple.product-type.bundle.unit-test";
+            buildConfigurations = (
+                {
+                    isa = XCBuildConfiguration;
+                    name = Debug;
+                    buildSettings = {
+                        CODE_SIGN_STYLE = Automatic;
+                        INFOPLIST_FILE = "PulsarX2macOSTests/Info.plist";
+                        PRODUCT_BUNDLE_IDENTIFIER = "com.lana-svetik.PulsarX2macOSTests";
+                        PRODUCT_NAME = "$(TARGET_NAME)";
+                        SWIFT_VERSION = 5.0;
+                    };
+                },
+                {
+                    isa = XCBuildConfiguration;
+                    name = Release;
+                    buildSettings = {
+                        CODE_SIGN_STYLE = Automatic;
+                        INFOPLIST_FILE = "PulsarX2macOSTests/Info.plist";
+                        PRODUCT_BUNDLE_IDENTIFIER = "com.lana-svetik.PulsarX2macOSTests";
+                        PRODUCT_NAME = "$(TARGET_NAME)";
+                        SWIFT_VERSION = 5.0;
+                    };
+                }
+            );
+        }
+    );
+}
