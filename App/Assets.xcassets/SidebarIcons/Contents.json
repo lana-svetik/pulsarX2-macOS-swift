@@ -1,0 +1,28 @@
+{
+  "images" : [
+    {
+      "filename" : "home.png",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "customize.png",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "performance.png",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "macro.png",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "power.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
